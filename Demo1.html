@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Demo1.css"/>
+    <script type="text/javascript">
+        var a=document.getElementById("id").value;
+        var d=document.getElementById("name");
+        document.write(d);
+        document.write(a);
+        document.write(10);
+            function show()
+            {
+                var a2=document.getElementById("id").value;
+                var d2=document.getElementById("name");
+                var a3=document.getElementById(id);
+                var a4=document.getElementsByName("id");
+                document.write(10);
+                for(var i=1;i<=a2;i++)
+            {
+                 document.write(i+"  x  5="+i*5);
+                 document.write(a2);
+                 document.write(d2);
+                 document.write(id);
+                 document.write(a4);
+            }
+            }
+    </script>
+</head>
+<body>
+    
+  
+        <input type="text" name="id" id="name"/>
+        <!-- <input type="submit" value="Print Table" onclick="show()" /> -->
+         <button onclick="show()" value="Print Table">Print Table</button>
+         <!-- <button><input type="submit" value="Print Table" onclick="show()" /></button> -->
+  
+</body>
+</html>

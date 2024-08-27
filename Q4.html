@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input,button
+        {
+            width: 300px;
+            height: 50px;
+        }
+    </style>
+    <script>
+        function show()
+        {
+            var a=document.getElementById("id").value;
+            var b=a.toString();
+            // document.write(a);
+            // document.write("<br>");
+            // document.write(b);
+            // var c=b.length;
+            // document.write("length "+c);
+            var index=0;
+            var index1=1;
+            document.write("Words lints");
+            var k=0;
+            var z=2;
+            document.write("<br>");
+            document.write("1 .");
+            while(k<b.length)
+        {
+            // document.write("<br>");
+            document.write(b[k]);
+            if(b[k]==" ")
+        {
+            document.write("<br>");
+            document.write(z+" .");
+            z++;
+        }
+            k++;
+        }
+        //     for(var i=0;i<b.length;i++)
+        // {
+        //     // document.write(10);
+        //       if(b[i]==" ")
+        //       {
+        //         index1=b[i];
+        //          for(var j=index;j<index1;j++)
+        //          {
+        //             document.write(b[j]);
+        //          }
+        //          document.write("<br>");
+        //          index=i+1;
+        //          document.write(10);
+        //       }
+        // }
+         }
+    </script>
+</head>
+<body>
+    <input type="text" id="id" />
+    <button onclick="show()">Show Words</button>
+</body>
+</html>

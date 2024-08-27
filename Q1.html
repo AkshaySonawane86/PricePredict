@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input,button
+        {
+            width: 300px;
+            height: 50px;
+        }
+    </style>
+    <script>
+        function show()
+        {
+            var d=document.getElementById("id1").value;
+            var d2=document.getElementById("id2").value;
+            var cal=d*d2;
+            document.write("Total bill is "+cal);
+            // document.write(d);
+            // document.write(d2);
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="id1" name="name1" placeholder="Quantity"/>
+    <input type="text" id="id2" name="name2" placeholder="Rate"/>
+    <button onclick="show()" >calculate</button>
+</body>
+</html>

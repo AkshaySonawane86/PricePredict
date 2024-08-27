@@ -1,0 +1,183 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 100%;
+    min-height: 100vh;
+    border: 2px solid #000;
+}
+.container header
+{
+    width: 100%;
+    min-height: 80px;
+    border: 2px solid #000;
+    display: flex;
+}
+
+.container .box
+{
+    width: 50%;
+    min-height: 100%;
+    /* border: 2px solid #000; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font: 1.5em sans-serif;
+}
+
+.box a
+{
+    color: gray;
+    text-decoration: none;
+}
+
+.box span
+{
+    color: orange;
+}
+
+.box1
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.box1 h1
+{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    color: white;
+}
+
+.box1 p
+{
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    color: white;
+}
+
+.box1 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.box2
+{
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 span
+{
+    color: orange;
+}
+
+.box3
+{
+    width: 100%;
+    height: 300px;
+    /* border: 2px solid #000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box3 .sbox1,.sbox2,.sbox3
+{
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid #000; */
+}
+
+.sbox1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sbox1 p
+{
+    margin-bottom: 30px;
+}
+
+.sbox1 p span
+{
+    color: orange;
+}
+
+.sbox2 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.sbox3
+{
+    padding: 20px;
+}
+
+.sbox3 h1 span
+{
+    color: orange;
+}
+
+.sbox3 p
+{
+    margin-top: 20px;
+}
+
+.box4
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+}
+
+.box4 .sbox4,.sbox5
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.sbox4 img{
+
+    width: 100%;
+    height: 100%;
+}
+
+.sbox5
+{
+    background-color: lightblue;
+    padding: 20px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin-top: 40px; */
+    /* padding-bottom: 100px; */
+    padding-top: 100px;
+}
+
+.sbox5 H1 span
+{
+    color: orangered;
+}
+
+.sbox5 p{
+    /* margin: 10px; */
+    margin-top: 30px;
+}
