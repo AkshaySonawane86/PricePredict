@@ -62,7 +62,7 @@
     font-family: 'Source Code Pro', monospace;  
     font-size: 28px;
     color: rgba(255,255,255,.70);
-    animation: animated-text 4s steps(41,end) 1s 1 normal both,
+    animation: animated-text 5s steps(41,end) 1s 1 normal both,
                    animated-cursor 600ms steps(41,end) infinite;
   
       
