@@ -10,10 +10,31 @@
 
 #box
 {
+    width: 100%;
     /* font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto; */
     background-color: #2C3E50;
 }
+
+#Dashboadbox1 .card
+{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#chartContainer
+{
+    /* border-radius: 10px; */
+    margin-right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* .Dashboadbox2
+{
+    border-radius: 10px;
+    margin-right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
 
 #idHover
 {
