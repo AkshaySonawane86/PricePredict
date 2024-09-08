@@ -30,7 +30,7 @@
     height: 100vh;
     width: 100%;
     background-color: #2C3E50;
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
 }
 
 #box1 h1
@@ -207,4 +207,60 @@
 #box6 p,span:hover
 {
     color: #18BC9C;
+}
+
+
+/* .loader {
+    width: 8px;
+    height: 48px;
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+    color: #FFF;
+    box-sizing: border-box;
+    background: red;
+    animation: animloader 1s linear infinite;
+  }
+  
+  @keyframes animloader {
+    0% {
+      box-shadow: 20px -10px, 40px 10px, 60px 0px;
+    }
+    25% {
+      box-shadow: 20px 0px, 40px  0px, 60px 10px;
+    }
+    50% {
+      box-shadow: 20px 10px, 40px -10px, 60px 0px;
+    }
+    75% {
+      box-shadow: 20px 0px, 40px 0px, 60px -10px;
+    }
+    100% {
+      box-shadow: 20px -10px, 40px 10px, 60px 0px;
+    }
+  }
+
+
+ 
+       */
+
+@media screen and (max-width: 1000px){
+    
+    #box1 h1
+    {
+        display: none;
+    }
+
+    #box5
+   {
+     grid-template-columns: 80%;
+     grid-template-rows: 150px 150px 150px;
+     margin: auto;
+     /* border: 2px solid red; */
+   }
+
+   #box5 .sbox1,.sbox2
+   {
+     margin: auto;
+   }
 }

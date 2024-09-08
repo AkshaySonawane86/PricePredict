@@ -16,6 +16,23 @@
     background-color: #2C3E50;
 }
 
+#box #textColour
+{
+    margin-left: 4.5%;
+}
+
+#box1 .bbb
+{
+    /* border: 2px solid #000; */
+    min-height: 684px;
+    background-color: #2C3E50;
+}
+
+/* .dashboad
+{
+    background-color: gray;
+} */
+
 #Dashboadbox1 .card
 {
     border-radius: 10px;
