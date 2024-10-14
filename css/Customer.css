@@ -1,0 +1,19 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box
+{
+    width: 100%;
+    /* font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto; */
+    background-color: #2C3E50;
+}
+
+#box #textColour
+{
+    margin-left: 4.5%;
+}

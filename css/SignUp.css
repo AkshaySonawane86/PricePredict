@@ -1,0 +1,182 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid #000;
+    position: relative;
+    /* background-color: #000; */
+}
+
+.container img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.box
+{
+    width: 30%;
+    height: 57%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    /* margin: 0 auto; */
+    /* box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px); */
+    /* From https://css.glass */
+/* background: rgba(255, 255, 255, 0.04);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.8px);
+-webkit-backdrop-filter: blur(2.8px);
+border: 1px solid rgba(255, 255, 255, 0.3); */
+background: linear-gradient(135deg, rgba(255, 255,255,0.1), rgba(255, 255, 255, 0));
+border-radius: 20px;
+box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.box .sbox1 h2
+{
+    color: #fff;
+    margin-top: 50px;
+}
+
+.box .sbox2
+{
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.box .sbox2 label
+{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.box .sbox2 input
+{   
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+
+.box .sbox2 #submit
+{
+    background-color: royalblue;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.box h4
+{
+    color: #ccc;
+}
+
+.box h4 a
+{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+.container2
+{
+  width: 100%;
+  height: 100vh;
+  background: #2C3E50;
+  position: relative;
+  padding-top: 120px;
+  display: none;
+}
+
+.container2 .container3
+{
+    width: 100%;
+    height: 70%;
+    background: #2C3E50; 
+    top: 30%;
+    position: absolute;
+    background: #fff;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    padding-top: 40px;
+}
+
+.container2 h1
+{
+    color: #ccc;  
+}
+
+.container3 .container4
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container3 h2
+{
+    margin-bottom: 60px;
+}
+
+.container3 .container4 input
+{
+    width: 86%;
+    height: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.container3 .container4 label
+{
+    margin-left: 38px;
+}
+
+.container3 .container4 #submit
+{
+    background: #2C3E50;
+    color: #fff;
+    padding: 7px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1400px)
+{
+    .container .box
+    {
+        width: 40%;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .container2
+    {
+        display: block;
+    }
+
+    .container
+    {
+        display: none;
+    }
+}

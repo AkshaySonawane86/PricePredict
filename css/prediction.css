@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bbox
+{
+    width: 80%;
+    height: 370px;
+    /* border: 2px solid #000; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.bbox label
+{
+    font-size: 1.6vw;
+    font-weight: 400;
+    padding: 8px 0;
+}
+
+.bbox input
+{
+    width: 55%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 5px;
+    border-color: #ccc;
+
+}
+
+.bbox p
+{
+    margin-top: 50px;
+    font-size: 2.3vw;
+}
+
+
+input[type=submit]
+{
+   color: white;
+   background-color: royalblue;
+   cursor: pointer;
+   font-weight: 700;
+}
+
+#category-dropdown-1,#product-dropdown-1
+{
+    width: 55%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 5px; 
+}
+
+@media screen and (max-width: 1000px) {
+    
+
+    .bbox p
+{
+    margin-top: 50px;
+    font-size: 2.8vw;
+}
+    
+    .bbox
+    {
+        width: 100%;
+    }
+
+    .bbox label
+{
+    font-size: 2.2vw;
+    display: none;
+}
+
+    .bbox input
+{
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 3px 5px; 
+}
+
+#category-dropdown-1,#product-dropdown-1
+{
+    width: 90%; 
+    margin-bottom: 15px;
+    padding: 3px 5px; 
+}
+}
