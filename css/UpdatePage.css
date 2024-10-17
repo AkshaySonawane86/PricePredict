@@ -9,6 +9,7 @@ body
 {
     background-color: black;
 }
+
 .container
 {
     width: 100%;
@@ -16,7 +17,6 @@ body
     /* border: 2px solid #000; */
     position: relative;
     /* background-color: #000; */
-    
 }
 
 .container img
@@ -28,7 +28,7 @@ body
 .box
 {
     width: 30%;
-    height: 57%;
+    height: 50%;
     border: 2px solid #fff;
     position: absolute;
     top: 25%;
@@ -56,6 +56,7 @@ border: 1px solid rgba(255, 255, 255, 0.18);
 {
     color: #fff;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .box .sbox2
@@ -145,9 +146,9 @@ border: 1px solid rgba(255, 255, 255, 0.18);
 .container3 .container4 input
 {
     width: 86%;
-    /* height: 30px; */
+    height: 30px;
     margin: 10px auto;
-    padding: 8px 10px;
+    padding: 10px;
     border-radius: 7px;
 }
 

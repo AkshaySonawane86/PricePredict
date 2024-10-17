@@ -335,6 +335,11 @@
         height: 80%;
      }
 
+     #Visit
+     {
+        height: 175px;
+     }
+
 @media screen and (max-width: 480px){
     
 
@@ -454,7 +459,7 @@
 
    #box5 .sbox2 h2
    {
-      margin: 10px 100px;
+      margin: 10px 80px;
       color: #18BC9C;
    }
 
@@ -475,6 +480,18 @@
    #box6 p
    {
     /* margin-top: 8px; */
-    font-size: 1rem;
+    font-size: 0.8rem;
+   }
+
+   #Visit
+   {
+     height: 200px;
+     /* border: 2px solid #000; */
+   }
+
+   #box #box-a
+   {
+        margin-left: -27px;
+        color: #000;
    }
 }
