@@ -9,7 +9,7 @@
 {
     width: 100%;
     height: 100vh;
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
     position: relative;
     /* background-color: #000; */
 }
@@ -101,7 +101,7 @@ border: 1px solid rgba(255, 255, 255, 0.18);
 .container2
 {
   width: 100%x;
-  height: 100vh;
+  height: calc(100vh - 100px);
   background: #2C3E50;
   position: relative;
   padding-top: 120px;

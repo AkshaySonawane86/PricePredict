@@ -18,8 +18,12 @@
             <input type="text" placeholder="Enter product" autocomplete="off"/>
 
             <label >Enter Category</label>
-           <input type="text" placeholder="Enter category" autocomplete="off"/>
-           
+            <select  name="category" class="form-control" required>
+                <option value="">Select Category</option>
+                <c:forEach items="${categories}" var="category">
+                <option value="${category.id}">${category.name}</option>
+                </c:forEach>
+                </select>
            <label >Enter Year</label>
            <input type="text" placeholder="Enter year" autocomplete="off"/>
 
@@ -43,8 +47,13 @@
             <input type="text" placeholder="Enter product" autocomplete="off"/>
 
             <label >Enter Category</label>
-           <input type="text" placeholder="Enter category" autocomplete="off"/>
-           
+            <select  name="category" class="form-control" required>
+                <option value="">Select Category</option>
+                <c:forEach items="${categories}" var="category">
+                <option value="${category.id}">${category.name}</option>
+                </c:forEach>
+                </select>
+                
            <label >Enter Year</label>
            <input type="text" placeholder="Enter year" autocomplete="off"/>
 

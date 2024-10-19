@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#box
+{
+    width: 100%;
+    /* font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto; */
+    background-color: #2C3E50;
+}
+
+#box #textColour
+{
+    margin-left: 4.5%;
+}
+
+#box1 .bbb
+{
+    /* border: 2px solid #000; */
+    min-height: 684px;
+    background-color: #2C3E50;
+}
+
+#Dashboadbox1 .card
+{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#chartContainer
+{
+    /* border-radius: 10px; */
+    margin-right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* .Dashboadbox2
+{
+    border-radius: 10px;
+    margin-right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+
+#idHover
+{
+    color: #fff;
+}
+
+#idHover:hover
+{
+    color: #18BC9C;
+}
+
+#sbox1
+{
+    background-color: #ECF0F1;
+    /* font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto; */
+    
+}
+
+@media screen and (max-width: 600px)
+{
+    #box #box-a
+    {
+       margin-left: 100px;
+       padding-left: 20px;
+       color: black;
+    }
+}
